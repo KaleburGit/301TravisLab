@@ -32,7 +32,7 @@ class CityListTest {
     @Test
     void countCities(){
         CityList cityList = mockCityList();
-        assertEquals(2, cityList.countCities());
+        assertEquals(1, cityList.countCities());
     }
 
 }
